@@ -1,5 +1,20 @@
 # Open-Pub-Web-Application-using-Streamlit
+- Google Map is down because of some issue, so main aim of this application was to provide a convenient way for users to explore pub 
+ locations and find nearby pubs for a fun and enjoyable experience. <br>
+- Preprocessed the dataset in Jupyter Notebook, handled null values in the latitude and longitude columns by removing the corresponding rows.<br>
+- Created WebApp using Streamlit Framework which allowed for seamless creation of multi-page functionality. <br>
+ The application included three main pages, each serving a specific purpose.<br>
+  -- Home Page: This page welcomed users and render basic information and statistics about the dataset. It offered a brief overview 
+ of the pub data, including the number of pubs available and any interesting insights derived from the dataset.<br>
+  -- Pub Locations: On this page, users could input a postal code or local authority to view all the pubs in the chosen area. 
+ The application used the latitude and longitude information from the dataset to display the pub locations on a map, providing a visual 
+ representation of the pub distribution in the specified region.<br>
+  -- Find the Nearest Pub: This page allowed users to enter their own latitude and longitude coordinates. Using the Euclidean distance 
+ calculation, the application determined the five nearest pubs to the user's location. These nearest pubs were then displayed on the map,
+ enabling users to easily identify and visit the closest options. <br>
+ Technologies : Python, Streamlit
 
+<hr>
 Task - Open Pub Application
 
 
